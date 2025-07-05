@@ -114,35 +114,6 @@ All data operations will be handled by the Express backend, which reads from and
 Project Structure
 A typical structure for this type of project might look like this:
 
-BookStore/
-├── backend/
-│   ├── node_modules/
-│   ├── data/
-│   │   └── books.json  # Your JSON data files
-│   ├── routes/
-│   │   └── bookRoutes.js
-│   ├── server.js       # Express application entry point
-│   ├── package.json
-│   └── ...
-├── frontend/
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── ...
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   └── ...
-├── .gitignore
-├── README.md
-└── package.json (if it's a monorepo setup)
-
-(Note: This is a suggested structure. Your actual project structure might vary.)
-
 Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
